@@ -1,6 +1,6 @@
 # React JS Startup and small business website template
 
-### This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and converted to use TypeScript and SCSS.
 
 # Screenshot
 
@@ -25,3 +25,30 @@ To use this template:
 Feel free to edit and make changes. 
 
 You can also Fork the repo and clone to your local machine, make desired changes and enjoy.
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+To learn TypeScript, visit the [TypeScript documentation](https://www.typescriptlang.org/docs/).
+
+For SCSS, refer to the [Sass documentation](https://sass-lang.com/documentation).

@@ -1,0 +1,175 @@
+.footer {
+    &__container {
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 0 1rem;
+      background-color: #f3f4f6;
+      border-top: 1px solid #e5e7eb;
+      border-bottom: 1px solid #e5e7eb;
+      padding-top: 7.5rem;
+      padding-bottom: 7.5rem;
+  
+      @media (min-width: 640px) {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+      }
+    }
+  
+    &__grid {
+      display: grid;
+      gap: 1.25rem;
+      padding-top: 2rem;
+      padding-bottom: 3rem;
+      border-top: 1px solid #e5e7eb;
+  
+      @media (min-width: 640px) {
+        grid-template-columns: repeat(12, minmax(0, 1fr));
+      }
+  
+      @media (min-width: 1024px) {
+        margin-left: 2.75rem;
+      }
+    }
+  
+    &__block {
+      @media (min-width: 640px) {
+        grid-column: span 12 / span 12;
+      }
+  
+      @media (min-width: 1024px) {
+        &--company {
+          grid-column: span 4 / span 4;
+        }
+  
+        &--links {
+          grid-column: span 1 / span 1;
+          margin-left: 1.75rem;
+        }
+  
+        &--services {
+          grid-column: span 4 / span 4;
+        }
+  
+        &--social {
+          grid-column: span 3 / span 3;
+        }
+      }
+    }
+  
+    &__company-info {
+      box-sizing: border-box;
+      border-bottom: 4px solid #1e3a8a;
+      padding: 2rem;
+      background-color: #e5e7eb;
+      color: #4b5563;
+      text-align: center;
+      border-radius: 0.5rem;
+  
+      @media (min-width: 1280px) {
+        width: 20rem;
+        margin: 0 auto;
+      }
+    }
+  
+    &__company-name {
+      font-weight: 700;
+      font-size: 2.25rem;
+      margin-bottom: 1rem;
+    }
+  
+    &__company-address {
+      font-size: 0.875rem;
+      font-weight: 500;
+    }
+  
+    &__block-title {
+      color: #013289;
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+  
+    &__link-list {
+      font-size: 0.875rem;
+    }
+  
+    &__link {
+      color: #013289;
+      transition: all 250ms ease-in-out;
+  
+      &:hover {
+        color: #111827;
+        letter-spacing: 0.05em;
+      }
+    }
+  
+    &__social-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin-bottom: 1.5rem;
+      color: #1e3a8a;
+      text-transform: uppercase;
+    }
+  
+    &__social-subtitle {
+      font-size: 0.875rem;
+      font-weight: 500;
+      margin-bottom: 1.5rem;
+    }
+  
+    &__social-list {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 1rem;
+    }
+  
+    &__social-link {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #1e3a8a;
+      background-color: white;
+      border-radius: 9999px;
+      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+      transition: all 150ms ease-in-out;
+  
+      &:hover {
+        color: #6b7280;
+        background-color: #f9fafb;
+      }
+    }
+  
+    &__social-icon {
+      width: 2rem;
+      height: 2rem;
+      fill: currentColor;
+    }
+  
+    &__copyright {
+      display: flex;
+      flex-wrap: wrap;
+      items-align: center;
+      justify-content: center;
+      margin: 0 auto;
+      padding: 0 1rem;
+    }
+  
+    &__copyright-text {
+      width: 100%;
+      text-align: center;
+      font-size: 0.875rem;
+      color: #e5e7eb;
+      font-weight: 600;
+      padding: 0.5rem 0;
+  
+      @media (min-width: 768px) {
+        width: 33.333333%;
+      }
+    }
+  
+    &__copyright-link {
+      &:hover {
+        color: #111827;
+      }
+    }
+  }
